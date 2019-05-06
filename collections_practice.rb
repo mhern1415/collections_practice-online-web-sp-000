@@ -29,6 +29,8 @@ end
 
 
 def find_a(array)
-  array.start_with?("a")
+  array.find_all do |word|
+    word[0] == "a"
+  end
 end
 
