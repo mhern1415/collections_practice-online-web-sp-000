@@ -32,3 +32,6 @@ def find_a(array)
     word[0] == "a"
   end
 end
+
+def find_a(array)
+  array.start_with?
